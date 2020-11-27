@@ -1,0 +1,26 @@
+{
+  "name": "Viedo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "element-ui": "^2.14.1",
+    "nuxt": "^2.14.6",
+    "vue-video-player": "^5.0.2"
+  },
+  "devDependencies": {
+    "video.js": "^7.10.2"
+  },
+  "config": {
+    "nuxt": {
+      "host": "127.0.0.1",
+      "port": "2020"
+    }
+  }
+}
